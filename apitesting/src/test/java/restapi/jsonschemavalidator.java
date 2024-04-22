@@ -17,6 +17,5 @@ public class jsonschemavalidator {
 		.then()
 		.assertThat().body(matchesJsonSchemaInClasspath("schema.json.txt"));
 		
-	}
-
+	} 
 }
